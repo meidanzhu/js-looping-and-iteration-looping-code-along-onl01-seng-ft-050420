@@ -1,13 +1,13 @@
 function writeCards(names, event) {
-  let message = []
+  let messages = []
   for (let i = 0; i < names.length; i++) {
-    message.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+    messages.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
 
-  return message
-}
+  return messages;
+};
 
-let countDown(num){
+function countDown(num){
   while (num >= 0) {
   console.log(num);
     num --;
